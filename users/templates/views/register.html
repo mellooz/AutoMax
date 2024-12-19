@@ -1,0 +1,20 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+
+{% block body %}
+<div class="text-center">
+    <main class="form-signin">
+        <form method="post">
+            <img class="mb-4" src="{% static 'images/logo.png' %}" alt="" width="72" height="72">
+            {% csrf_token %}
+            {% bootstrap_form register_form %}
+            <button class="w-100 btn btn-lg btn-danger" type="submit">Register</button>
+            <p class="mt-5 mb-3 text-muted">Copyright © 2022 AutoMax</p>
+        </form>
+    </main>
+</div>
+{% endblock body %}
+
+{% block footer %}
+{% endblock footer %}

@@ -1,0 +1,1 @@
+ Developed a web-based platform using Django to manage car listings. The system allows users to create, edit, and delete car advertisements, interact with listings through likes, and send inquiries via email. Users can manage their profiles, including personal information, profile pictures, and location details. 
